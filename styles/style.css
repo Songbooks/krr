@@ -841,7 +841,11 @@ genre.genre-list {
 		--ytmusic-content-width: calc(100vw - 32px - var(--ytmusic-guide-width));
 	}
 }
-
+@media screen and (max-width: 1020px) {
+	.nav formatted-string.sidebar-header-text {
+		font-size: var(--chakra-fontSizes-xl);
+	}
+}
 
 
 /*
