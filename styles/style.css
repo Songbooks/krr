@@ -846,7 +846,20 @@ genre.genre-list {
 		font-size: var(--chakra-fontSizes-xl);
 	}
 }
+@media screen and (max-width: 1020px) {
 
+	.genre-select {
+		flex-wrap: wrap;
+	}
+
+	.category-select {
+		justify-content: flex-start;
+	}
+
+	formatted-string.genre-text {
+		font-size: var(--chakra-fontSizes-sm);
+	}
+}
 
 /*
 
